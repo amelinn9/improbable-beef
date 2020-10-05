@@ -100,7 +100,8 @@ function buildCharts(sample) {
       y: yticks,
       text: labels,
       type: "bar",
-      orientation: "h"
+      orientation: "h",
+      marker: {color: "skyblue"}
     }];
 
     var barData = trace;
